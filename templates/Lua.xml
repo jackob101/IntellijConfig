@@ -1,0 +1,27 @@
+<templateSet group="Lua">
+  <template name="var" value="--- @type $NEXT$&#10;local $NAME$ = $END$" description="create @type comment" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="class" value="--- @class $NEXT$&#10;local $NAME$ = {}" description="create @class comment" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;cls&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="rtn" value="--- @return $NEXT$" description="create @return comment" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="param" value="--- @param $END$" description="create @param comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
