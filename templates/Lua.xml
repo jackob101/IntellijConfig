@@ -6,7 +6,7 @@
       <option name="LUA_CODE" value="true" />
     </context>
   </template>
-  <template name="class" value="--- @class $NAME$&#10;$NAME$ = {}&#10;$NAME$.__index = $NAME$&#10;&#10;--- @return $NAME$&#10;function $NAME$.new($PARAM$)&#10;    --- @type $NAME$&#10;    local new$NAME$ = {}&#10;    setmetatable(new$NAME$, $NAME$)&#10;    &#10;    &#10;    return new$NAME$&#10;end" description="create @class comment" toReformat="false" toShortenFQNames="true">
+  <template name="class" value="--- @class $NAME$&#10;$NAME$ = {}&#10;$NAME$.__index = $NAME$&#10;&#10;--- @return $NAME$&#10;function $NAME$.new($PARAM$)&#10;    --- @type $NAME$&#10;    local newInstance = {}&#10;    setmetatable(newInstance, $NAME$)&#10;    &#10;    &#10;    return newInstance&#10;end" description="create @class comment" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
