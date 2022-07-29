@@ -1,4 +1,5 @@
 <keymap version="1" name="XWin copy" parent="Default for XWin">
+  <action id="CallHierarchy" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
