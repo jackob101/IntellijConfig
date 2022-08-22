@@ -3,7 +3,7 @@
     <property name="created">2022-07-25T18:07:28</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2022.1.0.0</property>
-    <property name="modified">2022-08-19T16:48:52</property>
+    <property name="modified">2022-08-22T19:31:35</property>
     <property name="originalScheme">TokyoNightStorm</property>
   </metaInfo>
   <colors>
@@ -407,7 +407,6 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="9d7cd8" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
