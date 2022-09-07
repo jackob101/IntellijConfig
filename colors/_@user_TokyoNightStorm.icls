@@ -3,7 +3,7 @@
     <property name="created">2022-07-25T18:07:28</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2022.1.0.0</property>
-    <property name="modified">2022-09-07T18:56:50</property>
+    <property name="modified">2022-09-07T19:59:26</property>
     <property name="originalScheme">TokyoNightStorm</property>
   </metaInfo>
   <colors>
@@ -630,7 +630,9 @@
       </value>
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="BACKGROUND" value="3e4658" />
+      </value>
     </option>
     <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
       <value>
