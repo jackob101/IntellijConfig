@@ -8,6 +8,12 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="EditorLookupSelectionDown">
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
+  <action id="EditorLookupSelectionUp">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
   <action id="EditorSelectWord" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt right" />
