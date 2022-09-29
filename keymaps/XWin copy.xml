@@ -8,6 +8,7 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="ContextHelp" />
   <action id="EditorLookupSelectionDown">
     <keyboard-shortcut first-keystroke="alt j" />
   </action>
