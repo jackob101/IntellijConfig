@@ -1,0 +1,5 @@
+<application>
+  <component name="KJump">
+    <option name="characters" value="hklyuiopnm,qwertzxcvbasdgjf" />
+  </component>
+</application>
