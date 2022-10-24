@@ -16,6 +16,10 @@
     <keyboard-shortcut first-keystroke="alt k" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="FocusEditor">
+    <keyboard-shortcut first-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="alt l" />
